@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Nueva serie</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>Nueva serie</h1>
+
+<form method="POST" action="/create">
+    <input type="text" name="series_name" required>
+    <input type="number" name="current_episode" value="1" min="1" required>
+    <input type="number" name="total_episodes" min="1" required>
+    <button type="submit">Añadir</button>
+</form>
+<br>
+<a href="/">Volver</a>
+
+</body>
+</html>
