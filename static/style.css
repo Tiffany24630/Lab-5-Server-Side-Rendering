@@ -1,0 +1,22 @@
+body{
+    font-family: Arial;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    border:1px solid #ccc;
+    padding:6px;
+}
+
+progress{
+    width:120px;
+    height:16px;
+}
+
+.completed{
+    color:rgb(27, 169, 197);
+    font-weight:bold;
+}
